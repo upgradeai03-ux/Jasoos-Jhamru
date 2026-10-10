@@ -1,0 +1,43 @@
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large Datasets & Archives (Preserved locally, excluded from git)
+*.zip
+YOLO Waste Detection.v1-v1.yolov8/
+YOLO Waste Detection.v1-v1.yolov8.zip
+
+# Models & Weights
+*.pt
+runs/
+models/*.pt
+!models/.gitkeep
+
+# Application runtime logs & snapshots
+logs/*.db
+logs/*.csv
+snapshots/*.jpg
+snapshots/*.png
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

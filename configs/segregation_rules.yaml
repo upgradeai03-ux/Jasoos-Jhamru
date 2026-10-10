@@ -1,0 +1,58 @@
+# WasteGuard AI - Segregation Rules Configuration
+# Mappings for dataset classes: YOLO Waste Detection.v1-v1.yolov8
+
+categories:
+  wet_waste:
+    - "Organic"
+    - "Milk bottle"
+    - "Liquid"
+
+  dry_waste:
+    - "Aluminum can"
+    - "Aluminum caps"
+    - "Cardboard"
+    - "Cellulose"
+    - "Combined plastic"
+    - "Disposable tableware"
+    - "Foil"
+    - "Glass bottle"
+    - "Iron utensils"
+    - "Metal shavings"
+    - "Paper bag"
+    - "Paper cups"
+    - "Paper shavings"
+    - "Paper"
+    - "Papier mache"
+    - "Plastic bag"
+    - "Plastic bottle"
+    - "Plastic can"
+    - "Plastic canister"
+    - "Plastic caps"
+    - "Plastic cup"
+    - "Plastic shaker"
+    - "Plastic shavings"
+    - "Plastic toys"
+    - "Postal packaging"
+    - "Printing industry"
+    - "Scrap metal"
+    - "Stretch film"
+    - "Tetra pack"
+    - "Textile"
+    - "Tin"
+    - "Wood"
+    - "Zip plastic bag"
+
+  needs_review:
+    - "Aerosols"
+    - "Ceramic"
+    - "Container for household chemicals"
+    - "Electronics"
+    - "Furniture"
+    - "Unknown plastic"
+
+# Rule Engine Settings
+settings:
+  default_confidence_threshold: 0.35
+  consecutive_frames_required: 2
+  alert_cooldown_seconds: 5.0
+  snapshot_violations: true
